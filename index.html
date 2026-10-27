@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="无趣人类自救计划：关于设计、观察与自我更新的个人主页。">
+  <meta name="theme-color" content="#060914">
+  <title>无趣人类自救计划</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="cursor-glow" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="terminal-prompt"><span class="prompt-symbol">$</span><span class="command">whoami</span></div>
+      <h1 class="name" id="page-title">无趣人类<br>自救计划</h1>
+      <p class="tagline">设计、观察与自我更新</p>
+      <div class="links" aria-label="页面导航">
+        <a href="#about">关于我</a><a href="#journey">经历</a><a href="#projects">项目</a><a href="#interests">兴趣</a><a href="mailto:123@qq.com">联系我</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h2>about.txt</h2>
+      <p class="lead">无趣人类自救计划。</p>
+      <p>在日常与变化之间保持观察，用设计整理想法，也用新的工具和兴趣持续更新自己。</p>
+    </section>
+    <section class="experience" id="journey">
+      <h2>journey.log</h2>
+      <article class="job">
+        <div class="job-header"><h3>设计院女工出逃计划</h3><span class="date">2021.07—2023.07</span></div>
+        <p class="company">设计院</p>
+        <p>一段惊心动魄的经历。关于工作、选择，以及重新寻找个人方向。</p>
+      </article>
+    </section>
+    <section class="projects" id="projects">
+      <h2>projects/</h2>
+      <article class="project">
+        <div class="project-index">PROJECT 01</div>
+        <h3><span class="folder-icon" aria-hidden="true">▣</span>小羊楼设计</h3>
+        <p>为羊城晚报社参与的设计项目，坐落于广州金融城。</p>
+        <div class="tech-stack" aria-label="项目标签"><span>建筑设计</span><span>金融城</span><span>广州</span></div>
+      </article>
+    </section>
+    <section class="interests" id="interests">
+      <h2>interests.json</h2>
+      <div class="interest-grid"><span>AI 工具</span><span>PPT 设计</span><span>摄影</span><span>阅读</span><span>网页制作</span></div>
+    </section>
+    <footer>
+      <p class="footer-note">保持好奇，持续更新。</p>
+      <p><span class="prompt-symbol">$</span><span class="cursor-blink">_</span></p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
